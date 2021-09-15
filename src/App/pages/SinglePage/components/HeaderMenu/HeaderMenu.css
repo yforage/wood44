@@ -30,6 +30,12 @@ html {
 
 @media screen and (max-width: 500px) {
   .header__menu-button {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .header__menu-button {
     width: 70px;
   }
 }
