@@ -1,0 +1,141 @@
+.gallery__item {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.gallery__image-wrap {
+  width: 100%;
+  height: 470px;
+}
+
+.gallery__image {
+  max-width: 100%;
+}
+
+.gallery__description {
+  flex-grow: 1;
+  padding: 10px 15px;
+  background-color: #FFFFFF;
+}
+
+.gallery__title {
+  font-size: 20px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .gallery__image-wrap {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 1194px) {
+  .gallery__image-wrap {
+    height: 430px;
+  }
+}
+
+
+@media screen and (max-width: 1150px) {
+  .gallery__image-wrap {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .gallery__image-wrap {
+    height: 375px;
+  }
+}
+
+@media screen and (max-width: 967px) {
+  .gallery__image-wrap {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .gallery__image-wrap {
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .gallery__image-wrap {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .gallery__image-wrap {
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .gallery__image-wrap {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 605px) {
+  .gallery__image-wrap {
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .gallery__image-wrap {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .gallery__image-wrap {
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .gallery__image-wrap {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .gallery__image-wrap {
+    height: 140px;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  .gallery__image-wrap {
+    height: 130px;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .gallery__image-wrap {
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .gallery__image-wrap {
+    height: 110px;
+  }
+}
+
+@media screen and (max-width: 260px) {
+  .gallery__image-wrap {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 230px) {
+  .gallery__image-wrap {
+    height: 80px;
+  }
+}

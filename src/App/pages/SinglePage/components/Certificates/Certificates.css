@@ -1,0 +1,17 @@
+.certs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cert__item {
+  margin-top: 63px;
+  width: 45%;
+}
+
+.cert__item:last-of-type {
+  margin-bottom: 63px;
+}
+
+.cert__image {
+  max-width: 100%;
+}
