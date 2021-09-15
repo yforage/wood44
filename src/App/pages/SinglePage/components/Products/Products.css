@@ -1,10 +1,14 @@
+.products {
+  padding-top: 63px;
+}
+
 .product__text-bg {
   background-color: #FFFFFF;
 }
 
-.products__item {
+.products__item:not(:first-child) {
   margin-top: 63px;
-  }
+}
 
 .products__item_info, .products__item_description {
   padding: 30px 0;
