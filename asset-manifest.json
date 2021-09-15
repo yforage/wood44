@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/wood44/static/css/main.6708b993.chunk.css",
+    "main.js": "/wood44/static/js/main.cb3a3a0b.chunk.js",
+    "main.js.map": "/wood44/static/js/main.cb3a3a0b.chunk.js.map",
+    "runtime-main.js": "/wood44/static/js/runtime-main.d0b80943.js",
+    "runtime-main.js.map": "/wood44/static/js/runtime-main.d0b80943.js.map",
+    "static/css/2.786ae0dd.chunk.css": "/wood44/static/css/2.786ae0dd.chunk.css",
+    "static/js/2.e66b1132.chunk.js": "/wood44/static/js/2.e66b1132.chunk.js",
+    "static/js/2.e66b1132.chunk.js.map": "/wood44/static/js/2.e66b1132.chunk.js.map",
+    "index.html": "/wood44/index.html",
+    "static/css/2.786ae0dd.chunk.css.map": "/wood44/static/css/2.786ae0dd.chunk.css.map",
+    "static/css/main.6708b993.chunk.css.map": "/wood44/static/css/main.6708b993.chunk.css.map",
+    "static/js/2.e66b1132.chunk.js.LICENSE.txt": "/wood44/static/js/2.e66b1132.chunk.js.LICENSE.txt",
+    "static/media/bg.bd8d3a1e.jpg": "/wood44/static/media/bg.bd8d3a1e.jpg",
+    "static/media/certificate_fsc-0.2705ee42.jpg": "/wood44/static/media/certificate_fsc-0.2705ee42.jpg",
+    "static/media/certificate_fsc-1.b0ead1c3.jpg": "/wood44/static/media/certificate_fsc-1.b0ead1c3.jpg",
+    "static/media/dryerload.ef4f82e5.jpg": "/wood44/static/media/dryerload.ef4f82e5.jpg",
+    "static/media/intro.9d0ff494.jpg": "/wood44/static/media/intro.9d0ff494.jpg",
+    "static/media/logconv.14c209aa.jpg": "/wood44/static/media/logconv.14c209aa.jpg",
+    "static/media/logsout.d3f018c8.jpg": "/wood44/static/media/logsout.d3f018c8.jpg",
+    "static/media/peeling.47a82f9b.jpg": "/wood44/static/media/peeling.47a82f9b.jpg",
+    "static/media/poolin.10260573.jpg": "/wood44/static/media/poolin.10260573.jpg",
+    "static/media/products-01.ffb5173a.jpg": "/wood44/static/media/products-01.ffb5173a.jpg",
+    "static/media/products-02.9c9c2ebb.jpg": "/wood44/static/media/products-02.9c9c2ebb.jpg",
+    "static/media/products-03.cde72023.jpg": "/wood44/static/media/products-03.cde72023.jpg",
+    "static/media/stacking.82914caf.jpg": "/wood44/static/media/stacking.82914caf.jpg",
+    "static/media/stock.5d07a44e.jpg": "/wood44/static/media/stock.5d07a44e.jpg",
+    "static/media/truckload.ccfcfde5.jpg": "/wood44/static/media/truckload.ccfcfde5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0b80943.js",
+    "static/css/2.786ae0dd.chunk.css",
+    "static/js/2.e66b1132.chunk.js",
+    "static/css/main.6708b993.chunk.css",
+    "static/js/main.cb3a3a0b.chunk.js"
+  ]
+}
