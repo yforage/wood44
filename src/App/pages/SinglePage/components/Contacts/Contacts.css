@@ -25,9 +25,14 @@
   pointer-events: none;
 }
 
-.contacts__location:hover {
+.contacts__location {
   color: #465945;
 }
+
+.contacts__location:hover {
+  color: #5b705a;
+}
+
 
 .contacts__location > .contacts__location-icon, .contacts__address {
   pointer-events: auto;
