@@ -45,7 +45,7 @@ const MainPage = () => {
             <p className="main_1__info_description">
               {mainPageText[langContext.lang].description}
             </p>
-            <HashLink smooth to="/wood44/#contacts">
+            <HashLink smooth to="/#contacts">
               <div className="main_1__info_link">
                 <span>{mainPageText[langContext.lang].link}</span>
               </div>

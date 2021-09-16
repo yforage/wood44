@@ -15,7 +15,7 @@ const HeaderMenu: React.FC<HeaderMenuProps> = ({ toggleDrawer }) => {
   return (
     <div className="header__menu">
       <div className="logo">
-        <HashLink smooth to="/wood44/#">
+        <HashLink smooth to="/#">
           <div className="logo_link title_bold">
             <span>WOOD44.ru</span>
           </div>

@@ -55,7 +55,7 @@ const DrawerMenu: React.FC<DrawerMenuProps> = ({ isOpen, toggleDrawer }) => {
     >
       <div className="drawer">
         <div className="drawer__header title_bold">
-          <HashLink smooth to="/wood44/#" onClick={toggleDrawer}>
+          <HashLink smooth to="/#" onClick={toggleDrawer}>
             <span className="logo_link">WOOD44.ru</span>
           </HashLink>
           <span className="logo_subtitle">
@@ -63,35 +63,35 @@ const DrawerMenu: React.FC<DrawerMenuProps> = ({ isOpen, toggleDrawer }) => {
           </span>
         </div>
         <div className="drawer__body">
-          <HashLink smooth to="/wood44/#about" onClick={toggleDrawer}>
+          <HashLink smooth to="/#about" onClick={toggleDrawer}>
             <div className="drawer__item">
               <span className="drawer__link">
                 {drawerText[langContext.lang].about}
               </span>
             </div>
           </HashLink>
-          <HashLink smooth to="/wood44/#products" onClick={toggleDrawer}>
+          <HashLink smooth to="/#products" onClick={toggleDrawer}>
             <div className="drawer__item">
               <span className="drawer__link">
                 {drawerText[langContext.lang].products}
               </span>
             </div>
           </HashLink>
-          <HashLink smooth to="/wood44/#gallery" onClick={toggleDrawer}>
+          <HashLink smooth to="/#gallery" onClick={toggleDrawer}>
             <div className="drawer__item">
               <span className="drawer__link">
                 {drawerText[langContext.lang].gallery}
               </span>
             </div>
           </HashLink>
-          <HashLink smooth to="/wood44/#contacts" onClick={toggleDrawer}>
+          <HashLink smooth to="/#contacts" onClick={toggleDrawer}>
             <div className="drawer__item">
               <span className="drawer__link">
                 {drawerText[langContext.lang].contacts}
               </span>
             </div>
           </HashLink>
-          <HashLink smooth to="/wood44/#certificates" onClick={toggleDrawer}>
+          <HashLink smooth to="/#certificates" onClick={toggleDrawer}>
             <div className="drawer__item">
               <span className="drawer__link">
                 {drawerText[langContext.lang].certificates}
