@@ -1,0 +1,46 @@
+@import "styles/variables.scss";
+
+.drawer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.drawer__header {
+  height: 30%;
+}
+
+.drawer__body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.drawer__item {
+  margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.drawer__link {
+  color: $sub-accent;
+}
+
+.drawer__link:hover {
+  color: $subtitle-color;
+}
+
+
+@media screen and (max-height: 820px) and (max-width: 310px){
+  .drawer__body {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-height: 820px) and (max-width: 266px){
+  .drawer__body {
+    font-size: 24px;
+  }
+}

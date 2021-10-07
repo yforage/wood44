@@ -1,0 +1,87 @@
+@import '~antd/dist/antd.css';
+@import 'styles/variables.scss';
+
+.header {
+  position: fixed;
+  z-index: 1;
+  background-color: $main-accent;
+  color: $sub-accent;
+  width: 100%;
+}
+
+.content {
+  margin-top: 63px;
+}
+
+.title_bold {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
+
+.title_thin  {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+.logo_link {
+  color: $title-color;
+  font-size: 42px;
+}
+
+.logo_link:hover {
+  color: $title-color;
+}
+
+.logo_subtitle {
+  color: $subtitle-color;
+  display: block;
+}
+
+@media screen and (max-height: 820px) {
+  .logo_subtitle {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-height: 820px) and (max-width: 310px){
+  .logo_subtitle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .header {
+    padding: 0px 35px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .logo_link {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  .header { 
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 343px) {
+  .header {
+    padding: 0 10px;
+  }
+  .logo_link {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-height: 820px) and (max-width: 266px){
+  .logo_subtitle {
+    font-size: 18px;
+  }
+  .logo_link {
+    font-size: 28px;
+  }
+}
+

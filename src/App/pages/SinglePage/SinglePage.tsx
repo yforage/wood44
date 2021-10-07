@@ -1,19 +1,20 @@
 import { createContext, useContext, useState } from "react";
+import React from "react";
 
-import "./SinglePage.css";
+import "./SinglePage.scss";
 import { Layout } from "antd";
 import { BrowserRouter } from "react-router-dom";
 
+import Certificates from "../../../components/Certificates";
+import Contacts from "../../../components/Contacts";
+import DrawerMenu from "../../../components/DrawerMenu";
+import FooterInfo from "../../../components/FooterInfo";
+import Gallery from "../../../components/Gallery";
+import HeaderMenu from "../../../components/HeaderMenu";
+import MainPage from "../../../components/MainPage";
+import OurPromise from "../../../components/OurPromise";
+import Products from "../../../components/Products";
 import background from "./bg.jpg";
-import Certificates from "./components/Certificates";
-import Contacts from "./components/Contacts";
-import DrawerMenu from "./components/DrawerMenu";
-import FooterInfo from "./components/FooterInfo";
-import Gallery from "./components/Gallery";
-import HeaderMenu from "./components/HeaderMenu";
-import MainPage from "./components/MainPage";
-import OurPromise from "./components/OurPromise";
-import Products from "./components/Products";
 
 type LangContextProps = {
   lang: string;

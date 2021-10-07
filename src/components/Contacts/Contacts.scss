@@ -1,0 +1,66 @@
+@import "styles/variables.scss";
+
+.contacts__row {
+  background-color: $main-transparent;
+  margin-top: 63px;
+  padding: 63px 0;
+}
+
+.contacts {
+  background-color: $sub-accent;
+  text-align: center;
+  padding: 5% 0;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 3px $sub-accent, inset 0 0 0 6px $main-transparent;
+}
+
+.contacts__location {
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.contacts__location {
+  pointer-events: none;
+}
+
+.contacts__location {
+  color: $location-highlight;
+}
+
+.contacts__location:hover {
+  color: $location-highlight-hover;
+}
+
+
+.contacts__location > .contacts__location-icon, .contacts__address {
+  pointer-events: auto;
+}
+
+.contacts__location-icon {
+  width: 30px;
+}
+
+.contacts__hint {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.contacts__street, .contacts__title {
+  font-weight: 700;
+}
+
+.contacts__title, .contacts__info, .contacts__street {
+  display: block;
+}
+
+.contacts__info-block {
+  margin-bottom: 30px;
+}
+
+.contacts__title {
+  word-spacing: -5px;
+}
